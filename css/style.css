@@ -1,0 +1,144 @@
+html,body{
+  height:  100%;
+
+}
+body{
+
+  background-image:url("../images/spp.jpeg");
+  background-size:cover;
+  padding: 0;
+  margin: 0;
+
+}
+.image-preview__image{
+  display: block;
+    width: 100%;
+
+}
+.image-preview{
+
+    width: 100px;
+    min-height: 100px;
+    border: 2px solid #dddddd;
+    margin-top: 3px;
+
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #cccccc; */
+}
+
+.removbtn{
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+}
+.parg{
+  color: white;
+  margin-top: 0px;
+  display: inline;
+}
+.pargline{
+  color: white;
+  margin-top: 0px;
+  display: inline;
+  padding-left: 5px;
+
+}
+.line{
+  background-color: white;
+  position: absolute;
+  height: 2px;
+}
+label{
+  color: white;
+  height: 60px;
+  width: 220px;
+  background: #f5af09;
+
+  margin: 2px;
+  top: 0;
+
+  right: 2px;
+
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat",sans-serif;
+}
+input[type="file"]{
+  display: none;
+
+}
+.ConnectRelationship{
+  /* padding: 16px 48px;
+  border: 3px solid #ffc872;
+  border-radius: 48px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #ffc872;
+  top: 0px;
+  left: 50px; */
+  color: white;
+  height: 60px;
+  width: 220px;
+  background: #f5af09;
+
+  margin: 2px;
+  top: 0;
+
+  right: 2px;
+
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat",sans-serif;
+
+}
+.RemovRelationship{
+  color: white;
+  height: 60px;
+  width: 220px;
+  background: #f5af09;
+
+  margin: 2px;
+  top: 0;
+
+  right: 2px;
+
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat",sans-serif;
+}
+.addPhotounKnown{
+  color: white;
+  height: 60px;
+  width: 220px;
+  background: #f5af09;
+
+  margin: 2px;
+  top: 0;
+
+  right: 2px;
+
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat",sans-serif;
+}
+#point3 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    left: 0px;
+    border-radius: 50%;
+
+  }
